@@ -1,0 +1,5 @@
+<Grid>
+    <TextBox Text="{Binding Name}" />
+    <TextBox Text="{Binding Address}" />
+    <Button Content="Сохранить" Command="{Binding SaveCommand}" />
+</Grid>
